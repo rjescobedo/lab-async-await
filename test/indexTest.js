@@ -44,7 +44,8 @@ describe('Asynchronous Fetching ', () => {
   it('should fetch to external api and add information to page', async() => {
     await new Promise(resolve => setTimeout(resolve, 200)); 
     let postDisplay = document.querySelector("#post-list")
-    expect(postDisplay.innerHTML).to.include('sunt aut')
+    //console.log(post)
+    expect(postDisplay.innerHTML).to.include('ea molestias')
     
   })
   it('should create an h1 and p element to add', async() => {
